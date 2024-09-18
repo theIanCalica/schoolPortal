@@ -31,7 +31,7 @@ const StaffSchema = new Schema(
       required: "Email is required!",
       unique: true,
     },
-    phoneNumber: {
+    phone: {
       type: String,
       required: "Phone Number is required!",
       unique: true,
